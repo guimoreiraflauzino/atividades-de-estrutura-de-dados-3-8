@@ -17,10 +17,10 @@ int main(int argc, char *argv[]) {
         if (num > largest)
             largest = numero;
     }
-        int count = argc - 1;
+        int counta = argc - 1;
         float average = (float)sum / count;
 
-    printf("Quantidade de números recebidos: %d\n", count);
+    printf("Quantidade de números recebidos: %d\n", counta);
     printf("Valor médio dos números: %.1f\n", average);
     printf("Menor número: %d\n", smallest);
     printf("Maior número: %d\n", largest);
