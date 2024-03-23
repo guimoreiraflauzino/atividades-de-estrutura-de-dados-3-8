@@ -11,11 +11,11 @@ int main(int argc, char *argv[]) {
         
         for (int i = 1; i < argc; i++) {
         int num = atoi(argv[i]);
-        soma += num;
+        soma += numero;
         if (num < smallest)
-            smallest = num;
+            smallest = numero;
         if (num > largest)
-            largest = num;
+            largest = numero;
     }
         int count = argc - 1;
         float average = (float)sum / count;
